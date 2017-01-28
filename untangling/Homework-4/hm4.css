@@ -1,0 +1,91 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("http://wallpapercave.com/wp/vGD9S9o.jpg");
+  background-position: center center;
+  background-size: cover;
+  height: 400px;
+  width: 100%;
+}
+
+#header-text {
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 25%;
+  width: 100%;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: calibri, sans-serif;
+  color: #404040;
+  font-size: 36px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-family: garamond, serif;
+  color: #404040;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 2px;
+}
+
+.navigation {
+  background-color: white;
+  height: auto;
+  text-align: center;
+  left: 0;
+  top: 0;
+}
+
+.navigation ul {
+  padding: 0;
+}
+
+.navigation li {
+  color: #B8B8B8;
+  display: inline-block;
+  font-family: calibri, sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 40px;
+  text-transform: uppercase;
+}
+
+a {
+  color:#B8B8B8;
+  }      /* unvisited link */
+
+a:visited {
+  color:#B8B8B8;
+  }  /* visited link */
+  
+a:hover {
+  color:#FFE6F2;
+  }  /* mouse over link */
+  
+a:active {
+  color:#F2E6FF;
+  }  /* selected link */
+  
+.question {
+  background-color: #FFE6F2;
+  height: 200px;
+  text-align: center;
+  line-height: 50px;
+  left: 0;
+  top: 0;
+}
+
+#question-text {
+  color: #404040;
+  font-family: calibri, sans serif;
+  text-transform: lowercase;
+}
